@@ -8,18 +8,23 @@
   <!-- * swiper slider css link -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <!-- * font awesome icon css link -->
-  <link rel="stylesheet" href="./assate/fontIcon/css/all.min.css">
+  <link rel="stylesheet" href="./assets/fontIcon/css/all.min.css">
   <!-- * css file link -->
-  <link rel="stylesheet" href="./assate/css/style.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- * responsive css file link -->
+  <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 <body>
   <!-- * header section start -->
   <header id="header" class="section_p">
-    <img src="./assate/img/Logo.svg" alt="">
+    <div class="logo">
+      <img src="./assets/img/Logo.svg" alt="">
+    </div>
     <ul class="navbar">
       <li><a href="index.html" class="active">Home</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="">Pages <i class="fa-solid fa-chevron-down"></i></a>
+      <li>
+        <a href="#">Pages <i class="fa-solid fa-chevron-down"></i></a>
         <ul class="dropdown">
           <li><a href="services.html">Services</a></li>
           <li><a href="servicessingle.html">Services single</a></li>
@@ -38,12 +43,13 @@
         <input type="text">
       </form>
       <button class=""><i class="fa-solid fa-cart-shopping"></i> <span>Cart (0)</span></button>
+      <i class="fa-solid fa-bars"></i>
     </div>
   </header>
   <!-- * header section end -->
 
   <!-- * banner section start -->
-  <section id="banner">
+  <section id="banner" class="section_p">
     <div class="banner-content">
       <h4 class="sub-title">100% Natural Food</h4>
       <h2 class="title">Choose the best <br>healthier way <br>of life</h2>
@@ -60,7 +66,7 @@
         <h4 class="sub-title">Natural!!</h4>
         <h2 class="title">Get Garden <br> Fresh Fruits</h2>
       </div>
-      <img src="./assate/img/Homepage/discountImg-1.jpg" alt="">
+      <img src="./assets/img/Homepage/discountImg-1.jpg" alt="">
     </div>
     <div class="discount-card-two">
       <div class="discount_content">
@@ -68,7 +74,7 @@
         <h2 class="title">Get 10% off <br>
           on Vegetables</h2>
       </div>
-      <img src="./assate/img/Homepage/discountImg-2.jpg" alt="">
+      <img src="./assets/img/Homepage/discountImg-2.jpg" alt="">
     </div>
   </section>
   <!-- * discount section end -->
@@ -76,7 +82,7 @@
   <!-- * about section start -->
   <section id="about">
     <div class="container about-container">
-      <img src="./assate/img/Homepage/aboutImg.png" alt="">
+      <img src="./assets/img/Homepage/aboutImg.png" alt="">
       <div class="about_content">
         <h4 class="sub-title">About Us</h4>
         <h2 class="title">We Believe in Working <br>
@@ -85,7 +91,7 @@
           been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
           <div class="about_item">
             <div class="img-box">
-              <img src="./assate/img/Homepage/Icon-1.svg" alt="">
+              <img src="./assets/img/Homepage/Icon-1.svg" alt="">
             </div>
             <div class="content-box">
               <h4 class="title">Organic Foods Only</h4>
@@ -94,7 +100,7 @@
           </div>
           <div class="about_item">
             <div class="img-box">
-              <img src="./assate/img/Homepage/Icon-2.svg" alt="">
+              <img src="./assets/img/Homepage/Icon-2.svg" alt="">
             </div>
             <div class="content-box">
               <h4 class="title">Quality Standards</h4>
@@ -112,138 +118,134 @@
     <h4 class="sub-title">Categories</h4>
     <h2 class="title">Our Products</h2>
 
-    <div class="swiper slideOne">
-      <div class="product-items-box swiper-wrapper">
-        <div class="product-item swiper-slide">
-          <button class="btn">Vegetable</button>
-          <img src="./assate/img/Homepage/p1.png" alt="">
-          <h5>Calabrese Broccoli</h5>
-          <!-- <hr> -->
-          <div class="p-s">
-            <h2 class="title"><del>$20.00</del> $13.00</h2>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
+    <div class="product-items-box">
+      <div class="product-item">
+        <button class="btn">Vegetable</button>
+        <img src="./assets/img/Homepage/p1.png" alt="">
+        <h5>Calabrese Broccoli</h5>
+        <!-- <hr> -->
+        <div class="p-s">
+          <h2 class="title"><del>$20.00</del> $13.00</h2>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
           </div>
         </div>
-        <div class="product-item swiper-slide">
-          <button class="btn">Fresh</button>
-          <img src="./assate/img/Homepage/p2.png" alt="">
-          <h5>Fresh Banana Fruites</h5>
-          <!-- <hr> -->
-          <div class="p-s">
-            <h2 class="title"><del>$20.00</del> $14.00</h2>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
+      </div>
+      <div class="product-item">
+        <button class="btn">Fresh</button>
+        <img src="./assets/img/Homepage/p2.png" alt="">
+        <h5>Fresh Banana Fruites</h5>
+        <!-- <hr> -->
+        <div class="p-s">
+          <h2 class="title"><del>$20.00</del> $14.00</h2>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
           </div>
         </div>
-        <div class="product-item swiper-slide">
-          <button class="btn">Millets</button>
-          <img src="./assate/img/Homepage/p3.png" alt="">
-          <h5>White Nuts</h5>
-          <!-- <hr> -->
-          <div class="p-s">
-            <h2 class="title"><del>$20.00</del> $15.00</h2>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
+      </div>
+      <div class="product-item">
+        <button class="btn">Millets</button>
+        <img onclick="myFunctionOne()" src="./assets/img/Homepage/p3.png" alt="">
+        <h5 onclick="myFunctionOne()" >White Nuts</h5>
+        <!-- <hr> -->
+        <div class="p-s">
+          <h2 class="title"><del>$20.00</del> $15.00</h2>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
           </div>
         </div>
-        <div class="product-item swiper-slide">
-          <button class="btn">Vegetable</button>
-          <img src="./assate/img/Homepage/p4.png" alt="">
-          <h5>Vegan Red Tomato</h5>
-          <!-- <hr> -->
-          <div class="p-s">
-            <h2 class="title"><del>$20.00</del> $17.00</h2>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
+      </div>
+      <div class="product-item">
+        <button class="btn">Vegetable</button>
+        <img src="./assets/img/Homepage/p4.png" alt="">
+        <h5>Vegan Red Tomato</h5>
+        <!-- <hr> -->
+        <div class="p-s">
+          <h2 class="title"><del>$20.00</del> $17.00</h2>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
           </div>
         </div>
       </div>
     </div>
-    <div class="swiper slideTwo">
-      <div class="product-items-box swiper-wrapper">
-        <div class="product-item swiper-slide">
-          <button class="btn">Health</button>
-          <img src="./assate/img/Homepage/p5.png" alt="">
-          <h5>Mung Bean</h5>
-          <!-- <hr> -->
-          <div class="p-s">
-            <h2 class="title"><del>$20.00</del> $11.00</h2>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
+    <div class="product-items-box">
+      <div class="product-item">
+        <button class="btn">Health</button>
+        <img src="./assets/img/Homepage/p5.png" alt="">
+        <h5>Mung Bean</h5>
+        <!-- <hr> -->
+        <div class="p-s">
+          <h2 class="title"><del>$20.00</del> $11.00</h2>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
           </div>
         </div>
-        <div class="product-item swiper-slide">
-          <button class="btn">Nuts</button>
-          <img src="./assate/img/Homepage/p6.png" alt="">
-          <h5>Brown Hazelnut</h5>
-          <!-- <hr> -->
-          <div class="p-s">
-            <h2 class="title"><del>$20.00</del> $12.00</h2>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
+      </div>
+      <div class="product-item">
+        <button class="btn">Nuts</button>
+        <img src="./assets/img/Homepage/p6.png" alt="">
+        <h5>Brown Hazelnut</h5>
+        <!-- <hr> -->
+        <div class="p-s">
+          <h2 class="title"><del>$20.00</del> $12.00</h2>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
           </div>
         </div>
-        <div class="product-item swiper-slide">
-          <button class="btn">Fresh</button>
-          <img src="./assate/img/Homepage/p7.png" alt="">
-          <h5>Eggs</h5>
-          <!-- <hr> -->
-          <div class="p-s">
-            <h2 class="title"><del>$20.00</del> $17.00</h2>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
+      </div>
+      <div class="product-item">
+        <button class="btn">Fresh</button>
+        <img src="./assets/img/Homepage/p7.png" alt="">
+        <h5>Eggs</h5>
+        <!-- <hr> -->
+        <div class="p-s">
+          <h2 class="title"><del>$20.00</del> $17.00</h2>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
           </div>
         </div>
-        <div class="product-item swiper-slide">
-          <button class="btn">Fresh</button>
-          <img src="./assate/img/Homepage/p8.png" alt="">
-          <h5>Zelco Suji Elaichi Rusk</h5>
-          <!-- <hr> -->
-          <div class="p-s">
-            <h2 class="title"><del>$20.00</del> $17.00</h2>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
+      </div>
+      <div class="product-item">
+        <button class="btn">Fresh</button>
+        <img src="./assets/img/Homepage/p8.png" alt="">
+        <h5>Zelco Suji Elaichi Rusk</h5>
+        <!-- <hr> -->
+        <div class="p-s">
+          <h2 class="title"><del>$20.00</del> $17.00</h2>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
           </div>
         </div>
       </div>
@@ -308,7 +310,7 @@
         <div class="product-items-box swiper-wrapper">
           <div class="product-item swiper-slide">
             <button class="btn">Vegetable</button>
-            <img src="./assate/img/Homepage/of-1.png" alt="">
+            <img src="./assets/img/Homepage/of-1.png" alt="">
             <h5>Calabrese Broccoli</h5>
             <!-- <hr> -->
             <div class="p-s">
@@ -324,7 +326,7 @@
           </div>
           <div class="product-item swiper-slide">
             <button class="btn">Fresh</button>
-            <img src="./assate/img/Homepage/of-2.png" alt="">
+            <img src="./assets/img/Homepage/of-2.png" alt="">
             <h5>Fresh Banana Fruites</h5>
             <!-- <hr> -->
             <div class="p-s">
@@ -340,7 +342,7 @@
           </div>
           <div class="product-item swiper-slide">
             <button class="btn">Millets</button>
-            <img src="./assate/img/Homepage/of-3.png" alt="">
+            <img src="./assets/img/Homepage/of-3.png" alt="">
             <h5>White Nuts</h5>
             <!-- <hr> -->
             <div class="p-s">
@@ -356,7 +358,7 @@
           </div>
           <div class="product-item swiper-slide">
             <button class="btn">Vegetable</button>
-            <img src="./assate/img/Homepage/of-4.png" alt="">
+            <img src="./assets/img/Homepage/of-4.png" alt="">
             <h5>Vegan Red Tomato</h5>
             <!-- <hr> -->
             <div class="p-s">
@@ -378,7 +380,7 @@
 
   <!-- * eco section start -->
   <section id="eco">
-    <img src="./assate/img/Homepage/eco-bg.png" alt="">
+    <img src="./assets/img/Homepage/eco-bg.png" alt="">
     <div class="eco-content">
       <h4 class="sub-title">Eco Friendly</h4>
       <h2 class="title">Econis is a Friendly <br>
@@ -405,15 +407,15 @@
   <!-- * gallery section start -->
   <section id="gallery">
     <div class="gallery-box">
-      <img src="./assate/img/Homepage/g-1.jpg" alt="">
+      <img src="./assets/img/Homepage/g-1.jpg" alt="">
       <button class="btn">Organic Juice</button>
     </div>
     <div class="gallery-box">
-      <img src="./assate/img/Homepage/g-2.jpg" alt="">
+      <img src="./assets/img/Homepage/g-2.jpg" alt="">
       <button class="btn">Organic Food</button>
     </div>
     <div class="gallery-box">
-      <img src="./assate/img/Homepage/g-3.jpg" alt="">
+      <img src="./assets/img/Homepage/g-3.jpg" alt="">
       <button class="btn">Nuts Cookis</button>
     </div>
   </section>
@@ -433,7 +435,7 @@
         <div class="news-date">
           <h4 class="title">25 <br> Nov</h4>
         </div>
-        <img src="./assate/img/Homepage/n1.png" alt="">
+        <img src="./assets/img/Homepage/n1.png" alt="">
         <div class="news-content-box">
           <span><i class="fa-solid fa-user"></i> <a href="#">By Rachi Card</a></span>
           <h4 class="title"><a href="#">The Benefits of Vitamin D & How to Get It</a></h4>
@@ -445,7 +447,7 @@
         <div class="news-date">
           <h4 class="title">25 <br> Nov</h4>
         </div>
-        <img src="./assate/img/Homepage/n2.png" alt="">
+        <img src="./assets/img/Homepage/n2.png" alt="">
         <div class="news-content-box">
           <span><i class="fa-solid fa-user"></i><a href="#"> By Rachi Card</a></span>
           <h4 class="title"><a href="#">Our Favorite Summertime Tomato</a></h4>
@@ -492,7 +494,7 @@
       </div>
       <div class="social-box">
         <div class="logo">
-          <a href="index.html"><img src="./assate/img/Logo.svg" alt=""></a>
+          <a href="index.html"><img src="./assets/img/Logo.svg" alt=""></a>
         </div>
         <p>Simply dummy text of the printing and typesetting industry. <br>Lorem Ipsum simply dummy text of the printing </p>
         <ul>
@@ -523,7 +525,6 @@
   <!-- * swiper slider js link -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <!-- * font awesome icon js link -->
-  <script src="./assate/fontIcon/js/all.min.js"></script>
-  <script src="./assate/js/script.js"></script>
+  <script src="./assets/js/script.js"></script>
 </body>
 </html>

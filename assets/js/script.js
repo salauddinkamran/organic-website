@@ -1,3 +1,15 @@
+
+
+  const barIcon = document.querySelector('.fa-bars');
+  const navbar = document.querySelector('.navbar');
+  mediaSize = 1024;
+  barIcon.addEventListener('click', toggleNav);
+  function toggleNav() {
+    navbar.classList.toggle('active-nav')
+  }
+
+
+
 var swiper = new Swiper(".slideOne", {
   slidesPerView: 3,
   spaceBetween: 10,

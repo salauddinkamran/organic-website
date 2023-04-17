@@ -1,0 +1,116 @@
+@media screen and (max-width: 1880px) {
+  .section_p {
+    padding: 40px 30px !important;
+  }
+  #banner .banner-content {
+    left: 4%;
+  }
+  section#discount,
+  #about {
+    padding: 120px 30px !important;
+    width: 100%;
+  }
+  .discount-card-one, .discount-card-two {
+    width: 48%;
+  }
+
+}
+@media screen and (max-width: 1600px) {
+
+}
+
+
+
+@media screen and (max-width: 1400px) {
+  #header .input-btn form {
+    display: none;
+  }
+}
+
+
+
+@media screen and (max-width: 1100px) {
+  #header .navbar li {
+    padding-right: 20px !important;
+  }
+  #banner .banner-content h2 {
+    font-size: 65px;
+  }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  #header {
+    position: relative;
+    z-index: 99;
+  }
+  #header .navbar {
+    position: absolute;
+    width: 100%;
+    top: -500px;
+    left: 0px;
+    z-index: 1;
+    background: #eff6f1;
+    padding: 30px 0 0 50px;
+    /* visibility: hidden; */
+    z-index: -11;
+    transition: .5s ease;
+  }
+  #header .navbar.active-nav {
+    top: 140px;
+    visibility: visible;
+  }
+  #header .navbar li {
+    display: inline-block;
+    width: 100%;
+  }
+  #header .input-btn .fa-bars {
+    display: block !important;
+    cursor: pointer;
+  }
+}
+
+
+@media screen and (max-width: 991px) {
+  #banner .banner-content h2 {
+    font-size: 55px;
+  }
+  section#discount {
+    flex-direction: column;
+  }
+  .discount-card-one, .discount-card-two {
+    width: 100%;
+  }
+  .discount-card-one {
+    margin-bottom: 20px;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  #header {
+    position: relative;
+    height: 200px;
+  }
+  #header .logo {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: -100px;
+  }
+  #header .navbar.active-nav {
+    top: 200px;
+  }
+  #header .input-btn button {
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  #header .input-btn .fa-bars {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+  }
+}
