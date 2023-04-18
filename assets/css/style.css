@@ -600,7 +600,7 @@ section#about img {
 }
 
 #eco .eco-content {
-  background-image: url('/assets/img/Homepage/eco.png');
+  background-image: url('../img/Homepage/eco.png');
   padding: 78px 90px;
   background-repeat: no-repeat;
   border-radius: 30px;
