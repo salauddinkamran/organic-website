@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <!-- * font awesome icon css link -->
   <link rel="stylesheet" href="./assets/fontIcon/css/all.min.css">
+  <!-- * aos css link -->
+  <link rel="stylesheet" href="./assets/css/aos.css">
   <!-- * css file link -->
   <link rel="stylesheet" href="./assets/css/style.css">
   <!-- * responsive css file link -->
@@ -30,12 +32,11 @@
           <li><a href="servicessingle.html">Services single</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="ourTeam.html">Our Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
         </ul>
       </li>
       <li><a href="shop.html">Shop</a></li>
       <li><a href="contact.html" class="active">Contact Us</a></li>
-      <li><a href="#news">News</a></li>
+      <li><a href="blog.html">Blog</a></li>
     </ul>
     <div class="input-btn">
       <form>
@@ -58,11 +59,11 @@
 
   <!-- * together section start -->
   <section id="together" class="container">
-    <img src="./assets/img/contactpage/contact-1.jpg" alt="">
+    <img data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' src="./assets/img/contactpage/contact-1.jpg" alt="">
     <div class="together-contact-wrapper">
-      <h3>We'd love to talk about how we can work together.</h3>
-      <p>Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-      <div class="message-box">
+      <h3 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500'>We'd love to talk about how we can work together.</h3>
+      <p data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500'>Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="message-box">
         <div class="message-img-box">
           <img src="./assets/img/contactpage/Icon-1.png" alt="">
         </div>
@@ -71,7 +72,7 @@
           <span>support@organic.com</span>
         </div>
       </div>
-      <div class="phone-box">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="phone-box">
         <div class="phone-img-box">
           <img src="./assets/img/contactpage/Iocn-2.png" alt="">
         </div>
@@ -80,7 +81,7 @@
           <span>+01 123 456 789</span>
         </div>
       </div>
-      <ul>
+      <ul data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500'>
         <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
         <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
         <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
@@ -94,11 +95,11 @@
   <!-- * our-location section start -->
   <section id="our-location" class="container">
     <div class="our-location-wrapper">
-      <div class="our-location-content">
-        <h4 class="sub-title">location</h4>
-        <h2 class="title">Our Farms</h2>
-        <p>Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using.</p>
-        <div class="location-box">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="our-location-content">
+        <h4 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="sub-title">location</h4>
+        <h2 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="title">Our Farms</h2>
+        <p data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500'>Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using.</p>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="location-box">
           <i class="fa-solid fa-location-dot"></i>
           <div class="location-details">
             <b>New York, USA:</b>
@@ -106,7 +107,7 @@
               New York 10171</span>
           </div>
         </div>
-        <div class="location-box">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="location-box">
           <i class="fa-solid fa-location-dot"></i>
           <div class="location-details">
             <b>London, UK:</b>
@@ -116,31 +117,34 @@
         </div>
       </div>
     </div>
-    <form action="">
+    <form class="form-contact">
       <div class="input-wrapper">
-        <div class="input-box">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="input-box">
           <label for="">Full Name*</label>
-          <input type="text" placeholder="Your Email Address">
+          <input type="text" id="name" name="Name" placeholder="Your Full Name" required autocomplete="off">
         </div>
-        <div class="input-box">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="input-box">
           <label for="">Your Email*</label>
-          <input type="email" placeholder="example@yourmail.com"">
+          <input type="email" id="email" name="Email" placeholder="example@yourmail.com" required>
         </div>
       </div>
       <div class="input-wrapper">
-        <div class="input-box">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="input-box">
           <label for="">Company*</label>
-          <input type="text" placeholder="yourcompany name here">
+          <input type="text" id="company" name="Company" placeholder="yourcompany name here" required>
         </div>
-        <div class="input-box">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="input-box">
           <label for="">Subject*</label>
-          <input type="text" placeholder="how can we help">
+          <input type="text" id="subject" name="Subject" placeholder="how can we help" required>
         </div>
       </div>
-      <div class="input-wrapper-textarea">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="input-wrapper-textarea">
         <label for="">Message*</label>
-        <textarea cols="30" rows="10" placeholder="hello there,i would like to talk about how to..."></textarea>
+        <textarea cols="30" rows="10" placeholder="hello there,i would like to talk about how to..." id="message" name="Textarea" required></textarea>
       </div>
+      <button data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="btn sentMsg-btn">
+        Send Message
+      </button>
     </form>
   </section>
   <!-- * our-location section end -->
@@ -167,7 +171,7 @@
   <!-- * footer section start -->
   <footer id="footer" class="container">
     <div class="footer-content-box">
-      <div class="contact-box">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="contact-box">
         <h4>Contact Us</h4>
         <ul>
           <li>
@@ -184,7 +188,7 @@
           </li>
         </ul>
       </div>
-      <div class="social-box">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="social-box">
         <div class="logo">
           <a href="index.html"><img src="./assate/img/Logo.svg" alt=""></a>
         </div>
@@ -196,7 +200,7 @@
           <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
         </ul>
       </div>
-      <div class="UtilityPages-box">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="UtilityPages-box">
         <h4>Utility Pages</h4>
         <ul>
           <li><a href="#">Style Guide</a></li>
@@ -216,7 +220,12 @@
 
   <!-- * swiper slider js link -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- * smtpjs cdn link -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <!-- * aos js link -->
+  <script src="./assets/js/aos.js"></script>
   <!-- * font awesome icon js link -->
   <script src="./assets/js/script.js"></script>
+
 </body>
 </html>

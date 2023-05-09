@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <!-- * font awesome icon css link -->
   <link rel="stylesheet" href="./assets/fontIcon/css/all.min.css">
+  <!-- * aos css link -->
+  <link rel="stylesheet" href="./assets/css/aos.css">
   <!-- * css file link -->
   <link rel="stylesheet" href="./assets/css/style.css">
   <!-- * responsive css file link -->
@@ -30,12 +32,11 @@
           <li><a href="servicessingle.html">Services single</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="ourTeam.html">Our Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
         </ul>
       </li>
       <li><a href="shop.html">Shop</a></li>
       <li><a href="contact.html">Contact Us</a></li>
-      <li><a href="#news">News</a></li>
+      <li><a href="blog.html">Blog</a></li>
     </ul>
     <div class="input-btn">
       <form>
@@ -61,14 +62,14 @@
 
   <!-- * discount section start -->
   <section id="discount" class="container">
-    <div class="discount-card-one">
+    <div data-aos="fade-right" data-aos-duration='1500' class="discount-card-one">
       <div class="discount_content">
         <h4 class="sub-title">Natural!!</h4>
         <h2 class="title">Get Garden <br> Fresh Fruits</h2>
       </div>
       <img src="./assets/img/Homepage/discountImg-1.jpg" alt="">
     </div>
-    <div class="discount-card-two">
+    <div data-aos="fade-left" data-aos-duration='1500' class="discount-card-two">
       <div class="discount_content">
         <h4 class="sub-title">Offer!!</h4>
         <h2 class="title">Get 10% off <br>
@@ -82,14 +83,14 @@
   <!-- * about section start -->
   <section id="about">
     <div class="container about-container">
-      <img src="./assets/img/Homepage/aboutImg.png" alt="">
-      <div class="about_content">
+      <img data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' src="./assets/img/Homepage/aboutImg.png" alt="">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="about_content">
         <h4 class="sub-title">About Us</h4>
         <h2 class="title">We Believe in Working <br>
           Accredited Farmers</h2>
-        <p>Simply dummy text of the printing and typesetting industry. Lorem had ceased to 
+        <p data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500'>Simply dummy text of the printing and typesetting industry. Lorem had ceased to 
           been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-          <div class="about_item">
+          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="about_item">
             <div class="img-box">
               <img src="./assets/img/Homepage/Icon-1.svg" alt="">
             </div>
@@ -98,7 +99,7 @@
               <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
             </div>
           </div>
-          <div class="about_item">
+          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="about_item">
             <div class="img-box">
               <img src="./assets/img/Homepage/Icon-2.svg" alt="">
             </div>
@@ -107,7 +108,7 @@
               <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
             </div>
           </div>
-          <button class="btn">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+          <button data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="btn">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
       </div>
     </div>
   </section>
@@ -118,8 +119,8 @@
     <h4 class="sub-title">Categories</h4>
     <h2 class="title">Our Products</h2>
 
-    <div class="product-items-box">
-      <div class="product-item">
+    <div class="product-items-box d_grid">
+      <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration='1500' class="product-item product-item-grid-box">
         <button class="btn">Vegetable</button>
         <img src="./assets/img/Homepage/p1.png" alt="">
         <h5>Calabrese Broccoli</h5>
@@ -135,7 +136,7 @@
           </div>
         </div>
       </div>
-      <div class="product-item">
+      <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration='1500' class="product-item product-item-grid-box">
         <button class="btn">Fresh</button>
         <img src="./assets/img/Homepage/p2.png" alt="">
         <h5>Fresh Banana Fruites</h5>
@@ -151,7 +152,7 @@
           </div>
         </div>
       </div>
-      <div class="product-item">
+      <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration='1500' class="product-item product-item-grid-box">
         <button class="btn">Millets</button>
         <img onclick="myFunctionOne()" src="./assets/img/Homepage/p3.png" alt="">
         <h5 onclick="myFunctionOne()" >White Nuts</h5>
@@ -167,7 +168,7 @@
           </div>
         </div>
       </div>
-      <div class="product-item">
+      <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration='1500' class="product-item product-item-grid-box">
         <button class="btn">Vegetable</button>
         <img src="./assets/img/Homepage/p4.png" alt="">
         <h5>Vegan Red Tomato</h5>
@@ -184,8 +185,8 @@
         </div>
       </div>
     </div>
-    <div class="product-items-box">
-      <div class="product-item">
+    <div class="product-items-box d_grid">
+      <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration='1500' class="product-item product-item-grid-box">
         <button class="btn">Health</button>
         <img src="./assets/img/Homepage/p5.png" alt="">
         <h5>Mung Bean</h5>
@@ -201,7 +202,7 @@
           </div>
         </div>
       </div>
-      <div class="product-item">
+      <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration='1500' class="product-item product-item-grid-box">
         <button class="btn">Nuts</button>
         <img src="./assets/img/Homepage/p6.png" alt="">
         <h5>Brown Hazelnut</h5>
@@ -217,7 +218,7 @@
           </div>
         </div>
       </div>
-      <div class="product-item">
+      <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration='1500' class="product-item product-item-grid-box">
         <button class="btn">Fresh</button>
         <img src="./assets/img/Homepage/p7.png" alt="">
         <h5>Eggs</h5>
@@ -233,7 +234,7 @@
           </div>
         </div>
       </div>
-      <div class="product-item">
+      <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration='1500' class="product-item product-item-grid-box">
         <button class="btn">Fresh</button>
         <img src="./assets/img/Homepage/p8.png" alt="">
         <h5>Zelco Suji Elaichi Rusk</h5>
@@ -255,41 +256,60 @@
   <!-- * product section end -->
 
   <!-- * testimonial section start -->
-  <section id="testimonial" class="swiper testimonial">
-    <div class="swiper-wrapper testimonial-wrapper">
-      <div class="testimonial-content swiper-slide">
-        <h4 class="sub-title">Testimonial</h4>
-        <h2 class="title">What Our Customer Saying?</h2>
-        <img src="./assets/img/Homepage/testimonial-1.jpg" alt="">
-        <div class="star">
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
+  <section id="testimonial">
+    <div data-aos="fade-up" data-aos-anchor-placement="center" data-aos-delay="500" data-aos-duration='1500' class="testimonial">
+      <div class="swiper-wrapper testimonial-wrapper">
+        <div class="testimonial-content swiper-slide">
+          <h4 class="sub-title">Testimonial</h4>
+          <h2 class="title">What Our Customer Saying?</h2>
+          <img src="./assets/img/Homepage/testimonial-1.jpg" alt="">
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
+          <h4 class="nam">Sara Taylor</h4>
+          <span>Consumer</span>
         </div>
-        <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
-        <h4 class="nam">Sara Taylor</h4>
-        <span>Consumer</span>
+        <div class="testimonial-content swiper-slide">
+          <h4 class="sub-title">Testimonial</h4>
+          <h2 class="title">What Our Customer Saying?</h2>
+          <img src="./assets/img/Homepage/testimonial-2.jpg" alt="">
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
+          <h4 class="nam">Chris Jordan</h4>
+          <span>Store Owner</span>
+        </div>
       </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <!-- <div class="swiper-pagination"></div> -->
     </div>
-    <div class="swiper-pagination"></div>
 
     <div class="reting-wrapper container">
-      <div class="reting-box">
-        <h2>100%</h2>
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="reting-box">
+        <h2 data-target="100%" class="count divider">0%</h2>
         <span>Organic</span>
       </div>
-      <div class="reting-box">
-        <h2>285</h2>
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="reting-box">
+        <h2 data-target="285" class="count">0</h2>
         <span>Active Product</span>
       </div>
-      <div class="reting-box">
-        <h2>350+</h2>
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="reting-box">
+        <h2 data-target="350" class="count plus">0+</h2>
         <span>Organic Orchads</span>
       </div>
-      <div class="reting-box">
-        <h2>25+</h2>
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="reting-box">
+        <h2 data-target="25" class="count plus">0+</h2>
         <span>Years of Farming</span>
       </div>
     </div>
@@ -299,16 +319,16 @@
   <!-- * offer section start -->
   <section id="offer">
     <div class="container">
-      <div class="title-box">
-        <div class="title-box-content">
+      <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="300" data-aos-duration='1000' class="title-box">
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="300" data-aos-duration='1000' class="title-box-content">
           <h4 class="sub-title">Offer</h4>
           <h2 class="title offer-title">We Offer Organic For You</h2>
         </div>
-        <button class="btn">View All Product <i class="fa-solid fa-arrow-right"></i></button>
+        <button data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="300" data-aos-duration='1000' class="btn">View All Product <i class="fa-solid fa-arrow-right"></i></button>
       </div>
-      <div class="swiper slideOne">
+      <div class="swiper slideOne offer-swiper">
         <div class="product-items-box swiper-wrapper">
-          <div class="product-item swiper-slide">
+          <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration='1500' class="product-item swiper-slide">
             <button class="btn">Vegetable</button>
             <img src="./assets/img/Homepage/of-1.png" alt="">
             <h5>Calabrese Broccoli</h5>
@@ -324,7 +344,7 @@
               </div>
             </div>
           </div>
-          <div class="product-item swiper-slide">
+          <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration='1500' class="product-item swiper-slide">
             <button class="btn">Fresh</button>
             <img src="./assets/img/Homepage/of-2.png" alt="">
             <h5>Fresh Banana Fruites</h5>
@@ -340,7 +360,7 @@
               </div>
             </div>
           </div>
-          <div class="product-item swiper-slide">
+          <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration='1500' class="product-item swiper-slide">
             <button class="btn">Millets</button>
             <img src="./assets/img/Homepage/of-3.png" alt="">
             <h5>White Nuts</h5>
@@ -356,7 +376,71 @@
               </div>
             </div>
           </div>
-          <div class="product-item swiper-slide">
+          <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration='1500' class="product-item swiper-slide">
+            <button class="btn">Vegetable</button>
+            <img src="./assets/img/Homepage/of-4.png" alt="">
+            <h5>Vegan Red Tomato</h5>
+            <!-- <hr> -->
+            <div class="p-s">
+              <h2 class="title"><del>$20.00</del> $17.00</h2>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration='1500' class="product-item swiper-slide">
+            <button class="btn">Vegetable</button>
+            <img src="./assets/img/Homepage/of-1.png" alt="">
+            <h5>Calabrese Broccoli</h5>
+            <!-- <hr> -->
+            <div class="p-s">
+              <h2 class="title"><del>$20.00</del> $13.00</h2>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration='1500' class="product-item swiper-slide">
+            <button class="btn">Fresh</button>
+            <img src="./assets/img/Homepage/of-2.png" alt="">
+            <h5>Fresh Banana Fruites</h5>
+            <!-- <hr> -->
+            <div class="p-s">
+              <h2 class="title"><del>$20.00</del> $14.00</h2>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration='1500' class="product-item swiper-slide">
+            <button class="btn">Millets</button>
+            <img src="./assets/img/Homepage/of-3.png" alt="">
+            <h5>White Nuts</h5>
+            <!-- <hr> -->
+            <div class="p-s">
+              <h2 class="title"><del>$20.00</del> $15.00</h2>
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration='1500' class="product-item swiper-slide">
             <button class="btn">Vegetable</button>
             <img src="./assets/img/Homepage/of-4.png" alt="">
             <h5>Vegan Red Tomato</h5>
@@ -373,6 +457,7 @@
             </div>
           </div>
         </div>
+        <!-- <div class="swiper-pagination"></div> -->
       </div>
     </div>
   </section>
@@ -381,21 +466,21 @@
   <!-- * eco section start -->
   <section id="eco">
     <img src="./assets/img/Homepage/eco-bg.png" alt="">
-    <div class="eco-content">
-      <h4 class="sub-title">Eco Friendly</h4>
-      <h2 class="title">Econis is a Friendly <br>
+    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="eco-content">
+      <h4 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="sub-title">Eco Friendly</h4>
+      <h2 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="title">Econis is a Friendly <br>
         Organic Store</h2>
-      <div class="eco-list-content">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="eco-list-content">
         <h4>Start with Our Company First</h4>
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium <br> doloremque laudantium. Sed ut perspiciatis.
         </p>
       </div>
-      <div class="eco-list-content">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="eco-list-content">
         <h4>Learn How to Grow Yourself</h4>
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium <br> doloremque laudantium. Sed ut perspiciatis.
         </p>
       </div>
-      <div class="eco-list-content">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="eco-list-content">
         <h4>Farming Strategies of Today</h4>
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium <br> doloremque laudantium. Sed ut perspiciatis.
         </p>
@@ -406,15 +491,15 @@
 
   <!-- * gallery section start -->
   <section id="gallery">
-    <div class="gallery-box">
+    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="gallery-box">
       <img src="./assets/img/Homepage/g-1.jpg" alt="">
       <button class="btn">Organic Juice</button>
     </div>
-    <div class="gallery-box">
+    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="gallery-box">
       <img src="./assets/img/Homepage/g-2.jpg" alt="">
       <button class="btn">Organic Food</button>
     </div>
-    <div class="gallery-box">
+    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="gallery-box">
       <img src="./assets/img/Homepage/g-3.jpg" alt="">
       <button class="btn">Nuts Cookis</button>
     </div>
@@ -423,7 +508,7 @@
 
   <!-- * news section start -->
   <section id="news" class="container">
-    <div class="title-box">
+    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="title-box">
       <div class="title-box-content">
         <h4 class="sub-title">News</h4>
         <h2 class="title offer-title">Discover weekly content about <br> organic food, & more</h2>
@@ -431,7 +516,7 @@
       <button class="btn">More News <i class="fa-solid fa-arrow-right"></i></button>
     </div>
     <div class="news-box-wrapper">
-      <div class="news-box">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="news-box">
         <div class="news-date">
           <h4 class="title">25 <br> Nov</h4>
         </div>
@@ -443,7 +528,7 @@
           <button class="btn">Read More <i class="fa-solid fa-arrow-right"></i></button>
         </div>
       </div>
-      <div class="news-box">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500" data-aos-duration='1500' class="news-box">
         <div class="news-date">
           <h4 class="title">25 <br> Nov</h4>
         </div>
@@ -479,7 +564,7 @@
   <!-- * footer section start -->
   <footer id="footer" class="container">
     <div class="footer-content-box">
-      <div class="contact-box">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300" data-aos-duration='1000' class="contact-box">
         <h4>Contact Us</h4>
         <ul>
           <li>
@@ -496,7 +581,7 @@
           </li>
         </ul>
       </div>
-      <div class="social-box">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300" data-aos-duration='1000' class="social-box">
         <div class="logo">
           <a href="index.html"><img src="./assets/img/Logo.svg" alt=""></a>
         </div>
@@ -508,7 +593,7 @@
           <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
         </ul>
       </div>
-      <div class="UtilityPages-box">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300" data-aos-duration='1000' class="UtilityPages-box">
         <h4>Utility Pages</h4>
         <ul>
           <li><a href="#">Style Guide</a></li>
@@ -523,11 +608,13 @@
   <!-- * footer section end -->
 
   <section class="copyRight">
-    <p>Copyright © <b>Organick</b> | Designed by <b>VictorFlow</b> Templates - Powered by <b>Webflow</b></p>
+    <p>Copyright © <b>Organick</b> | Designed by <b>VictorFlow</b> Templates</p>
   </section>
 
   <!-- * swiper slider js link -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- * Aos js link -->
+  <script src="./assets/js/aos.js"></script>
   <!-- * font awesome icon js link -->
   <script src="./assets/js/script.js"></script>
 </body>

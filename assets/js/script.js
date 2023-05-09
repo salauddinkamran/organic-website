@@ -1,4 +1,4 @@
-
+  AOS.init();
 
   const barIcon = document.querySelector('.fa-bars');
   const navbar = document.querySelector('.navbar');
@@ -10,44 +10,25 @@
 
 
 
-var swiper = new Swiper(".slideOne", {
-  slidesPerView: 3,
-  spaceBetween: 10,
-  loop: true,
-  breakpoints: {
-    640: {
-      slidesPerView: 2,
-      spaceBetween: 20,
-    },
-    768: {
-      slidesPerView: 4,
-      spaceBetween: 40,
-    },
-    1024: {
-      slidesPerView: 5,
-      spaceBetween: 50,
-    },
-  },
-});
-var swiper = new Swiper(".slideTwo", {
-  slidesPerView: 3,
-  spaceBetween: 10,
-  loop: true,
-  breakpoints: {
-    640: {
-      slidesPerView: 2,
-      spaceBetween: 20,
-    },
-    768: {
-      slidesPerView: 4,
-      spaceBetween: 40,
-    },
-    1024: {
-      slidesPerView: 5,
-      spaceBetween: 50,
-    },
-  },
-});
+  const counters = document.querySelectorAll('.count');
+  const speed = 25;
+  counters.forEach((counter) => {
+    const updateCount = () => {
+      const target = parseInt(counter.getAttribute('data-target'));
+      const count = parseInt(counter.innerText);
+      const increment = Math.trunc(target / speed);
+
+      if (count < target) {
+        counter.innerText = count + increment;
+        setTimeout(updateCount, 1);
+      } else {
+        counter.innerText = target;
+      }
+    }
+    updateCount()
+  })
+
+
 
 
 function myFunctionOne() {
@@ -61,3 +42,45 @@ function sportfolio_img() {
 function blogSingle() {
   location.href = 'blogsingle.html'
 }
+
+
+
+
+var swiper = new Swiper(".testimonial", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+
+var swiper = new Swiper(".offer-swiper", {
+  slidesPerView: 4,
+  spaceBetween: 30,
+  grabCursor: true,
+  loop:true,
+  freeMode: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
+
+
+const videoPlayar = document.getElementById('videoPlayer');
+const myVideo = document.getElementById('myVideo');
+function stopVideo() {
+  videoPlayar.style.display = "none";
+}
+function playVideo (file) {
+  myVideo.src = file;
+  videoPlayar.style.display = 'block';
+}
+
