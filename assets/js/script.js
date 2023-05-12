@@ -84,3 +84,18 @@ function playVideo (file) {
   videoPlayar.style.display = 'block';
 }
 
+
+
+let form_contact = document.getElementById('form_contact');
+let submit_btn = document.getElementById('submit_btn');
+
+submit_btn.addEventListener('click', (e) => {
+  e.preventDefault();
+  emailjs.sendForm('service_eapaeoa', 'template_hxl9oig', form_contact)
+  .then(function(response) {
+     console.log('SUCCESS!', response.status, response.text);
+  }, function(error) {
+     console.log('FAILED...', error);
+  });
+})
+
