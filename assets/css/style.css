@@ -1908,7 +1908,7 @@ section#sportfolio .sportfolio-bg-img img {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  color: #ABABAB;
+  /* color: #ABABAB; */
 }
 #our-location form .input-wrapper-textarea label {
   display: block;
@@ -1931,7 +1931,7 @@ section#sportfolio .sportfolio-bg-img img {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  color: #ABABAB;
+  /* color: #ABABAB; */
 } 
 .sentMsg-btn {
   margin-top: 90px;
