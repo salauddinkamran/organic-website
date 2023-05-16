@@ -425,7 +425,7 @@
   .product-items-box {
     grid-template-columns: repeat(2, 1fr);
   }
-  .copyRight p {
+  .copy-right p {
     font-size: 18px;
   }
 }
@@ -582,20 +582,20 @@
   #together .together-contact-wrapper h3 {
     font-size: 40px;
   }
-  #notFound .notFound-content-wrapper {
+  #not-found .not-found-content-wrapper {
     justify-content: center;
   }
-  #notFound .notFound-content-wrapper .notFound-content-wrapp h1 {
+  #not-found .not-found-content-wrapper .not-found-content-wrapp h1 {
     font-size: 250px;
     text-align: center;
   }
-  #notFound .notFound-content-wrapper .notFound-content-wrapp h2 {
+  #not-found .not-found-content-wrapper .not-found-content-wrapp h2 {
     text-align: center;
   }
-  #notFound .notFound-content-wrapper .notFound-content-wrapp p {
+  #not-found .not-found-content-wrapper .not-found-content-wrapp p {
     text-align: center;
   }
-  #notFound .notFound-content-wrapper .notFound-content-wrapp button {
+  #not-found .not-found-content-wrapper .not-found-content-wrapp button {
     margin: auto;
   }
   #v1 .v1-content {
@@ -805,10 +805,10 @@
   #our-location form .input-wrapper .input-box input {
     margin-bottom: 20px;
   }
-  #notFound .notFound-content-wrapper .notFound-content-wrapp h1 {
+  #not-found .not-found-content-wrapper .not-found-content-wrapp h1 {
     font-size: 200px;
   }
-  #notFound .notFound-content-wrapper .notFound-content-wrapp h2 {
+  #not-found .not-found-content-wrapper .not-found-content-wrapp h2 {
     font-size: 60px;
   }
   #protected .protected-content {
@@ -983,7 +983,7 @@
     font-size: 35px;
     line-height: 50px;
   }
-  .copyRight p {
+  .copy-right p {
     font-size: 16px;
   }
   #news .news-box-wrapper .news-box .news-date h4 {
@@ -1003,10 +1003,10 @@
   #our-location .our-location-wrapper .our-location-content {
     padding: 45px 20px;
   }
-  #notFound .notFound-content-wrapper .notFound-content-wrapp h1 {
+  #not-found .not-found-content-wrapper .not-found-content-wrapp h1 {
     font-size: 150px;
   }
-  #notFound .notFound-content-wrapper .notFound-content-wrapp h2 {
+  #not-found .not-found-content-wrapper .not-found-content-wrapp h2 {
     font-size: 45px;
   }
   #protected .protected-content {
@@ -1043,10 +1043,10 @@
   #offer .offer-title {
     line-height: 50px;
   }
-  #notFound .notFound-content-wrapper .notFound-content-wrapp h1 {
+  #not-found .not-found-content-wrapper .not-found-content-wrapp h1 {
     font-size: 120px;
   }
-  #notFound .notFound-content-wrapper .notFound-content-wrapp h2 {
+  #not-found .not-found-content-wrapper .not-found-content-wrapp h2 {
     font-size: 35px;
   }
   #news .news-box-wrapper .news-box .news-content-box {

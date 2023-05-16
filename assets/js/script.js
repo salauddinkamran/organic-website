@@ -32,15 +32,15 @@
 
 
 function myFunctionOne() {
-  location.href = 'shopSingle.html'
+  location.href = 'shop-single.html'
 }
 
 function sportfolio_img() {
-  location.href = 'portfoliosingle.html'
+  location.href = 'portfolio-single.html'
 }
 
 function blogSingle() {
-  location.href = 'blogsingle.html'
+  location.href = 'blog-single.html'
 }
 
 
