@@ -74,6 +74,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #fff;
 }
 .navbar li {
   display: inline;
@@ -113,7 +114,7 @@ p {
   z-index: 1;
   transition: all .3s ease;
 }
-
+.navbar li:focus-within .dropdown,
 .navbar li:hover .dropdown {
   visibility: visible;
   opacity: 1;
@@ -135,8 +136,6 @@ p {
 .navbar li .dropdown li:hover a {
   color: #fff;
 }
-
-
 .input-btn {
   display: flex;
   align-items: center;
@@ -255,6 +254,7 @@ section#discount {
   display: flex;
   justify-content: space-between;
   padding: 120px 0;
+  background: #fff;
 }
 
 .discount-card-one,
@@ -370,6 +370,7 @@ section#about img {
 /* * product section start */
 #product {
   padding: 120px 0 !important;
+  background: #fff;
 }
 #product h4,
 #product h2 {
@@ -589,7 +590,6 @@ section#about img {
   text-align: center;  
   color: #274C5B;
 }
-
 .swiper-button-next, .swiper-button-prev {
   color: #274C5B;
 }
@@ -607,7 +607,6 @@ section#about img {
 #offer .offer-title {
   color: #fff;
 }
-
 .title-box {
   display: flex;
   justify-content: space-between;
@@ -635,6 +634,7 @@ section#about img {
 #eco {
   display: flex;
   align-items: center;
+  background: #fff;
 }
 
 #eco .eco-content {
@@ -696,6 +696,7 @@ section#about img {
 /* * news section start */
 #news {
   padding: 120px 0;
+  background: #fff;
 }
 #news .title-box {
   margin-bottom: 40px;
@@ -722,7 +723,6 @@ section#about img {
 #news .news-box-wrapper .news-box .news-content-box {
   width: 613px;
   height: 330px;
-  /* margin: 0 auto; */
   background: #fff;
   padding: 46px 56px 60px 56px;
   box-shadow: 0px 20px 35px rgba(167, 167, 167, 0.25);
@@ -787,6 +787,9 @@ section#about img {
 
 
 /* * subscribe section start */
+#subscribe {
+  background: #fff;
+}
 #subscribe .subscribe-box {
   background-image: url('../img/home-page/subscribe\ .jpg');
   background-repeat: no-repeat;
@@ -841,6 +844,7 @@ section#about img {
 /* * footer section start */
 #footer {
   padding-bottom: 120px !important;
+  background: #fff;
 }
 #footer .footer-content-box {
   display: flex;
@@ -935,6 +939,7 @@ section#about img {
 
 /* * copy-right section start */
 .copy-right {
+  background: #fff;
   border-top: 1px solid #D4D4D4;
 }
 .copy-right p {
@@ -1057,6 +1062,7 @@ section#about img {
   padding-bottom: 0 !important;
 }
 #team {
+  background: #fff;
   text-align: center;
   padding: 120px 0;
 }
@@ -1639,6 +1645,9 @@ section#sportfolio .sportfolio-bg-img img {
   background: transparent !important;
   padding-left: 0 !important;
 }
+.btn-bg-none:hover {
+  border: none !important;
+}
 .icon-color-name {
   color: #7EB693 !important;
 }
@@ -1795,9 +1804,11 @@ section#sportfolio .sportfolio-bg-img img {
   background: #EFF6F1;
   padding: 20px;
   border-radius: 50%;
+  transition: all .3s ease;
 }
 #together .together-contact-wrapper ul li a i:hover {
   background: #7EB693;
+  color: #fff;
 }
 #our-location {
   margin-top: 120px;
@@ -1878,7 +1889,7 @@ section#sportfolio .sportfolio-bg-img img {
 }
 #our-location form .input-wrapper .input-box input {
   width: 100%;
-  padding: 28PX 23PX 31PX 23PX;
+  padding: 28px 23px 31px 23px;
   border: 1px solid #7EB693;
   border-radius: 16px;
   outline: none;

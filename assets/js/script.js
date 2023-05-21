@@ -80,7 +80,7 @@ function stopVideo() {
   videoPlayar.style.display = "none";
 }
 function playVideo (file) {
-  myVideo.src = file;
+  myVideo.src = file.mp-4;
   videoPlayar.style.display = 'block';
 }
 

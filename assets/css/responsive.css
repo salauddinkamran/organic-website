@@ -139,6 +139,9 @@
   #header .input-btn form {
     display: none;
   }
+  #banner .banner-content {
+    top: 20%; 
+  }
   #about .about-container {
     flex-direction: column;
   }
@@ -177,10 +180,10 @@
     display: none;
   }
   #why-choose .wrapper-box {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   #why-choose .why-choose-content {
-    margin-bottom: 50px;
+    margin-top: 50px;
   }
   #why-choose .wrapper-box img {
     width: 60%;
@@ -255,7 +258,7 @@
     margin-bottom: 30px;
   }
   #footer .footer-content-box {
-    flex-direction: column;
+    /* flex-direction: column; */
     padding: 0px;
   }
   #footer .footer-content-box .contact-box, #footer .footer-content-box .social-box {
@@ -414,6 +417,14 @@
   #header .navbar li {
     display: inline-block;
     width: 100%;
+    transition: all .3s ease-in-out;
+  }
+  .navbar li .dropdown {
+    margin-top: 20px;
+  } 
+  .navbar li:focus-within .dropdown {
+    position: initial;
+    transition: all .3s ease;
   }
   #header .input-btn .fa-bars {
     display: block !important;
@@ -424,6 +435,9 @@
   }
   .product-items-box {
     grid-template-columns: repeat(2, 1fr);
+  }
+  #footer .footer-content-box .contact-box, #footer .footer-content-box .social-box {
+    width: 50%;
   }
   .copy-right p {
     font-size: 18px;
@@ -652,9 +666,6 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .product-item img {
-    height: 300px;
-  }
   .d_grid .product-item-grid-box img {
     height: 500px;
   }
@@ -699,6 +710,16 @@
   #subscribe .subscribe-box form .email {
     width: 100% ;
     margin-bottom: 20px;
+    height: 70px;
+  }
+  #subscribe .subscribe-box form .btn {
+    padding: 22px 47px;
+  }
+  #footer .footer-content-box {
+    flex-direction: column;
+  }
+  #footer .footer-content-box .contact-box, #footer .footer-content-box .social-box {
+    width: 100%;
   }
   #why-choose .wrapper-box img {
     width: 100%;
@@ -804,6 +825,7 @@
   }
   #our-location form .input-wrapper .input-box input {
     margin-bottom: 20px;
+    padding: 20px 23px;
   }
   #not-found .not-found-content-wrapper .not-found-content-wrapp h1 {
     font-size: 200px;
@@ -865,7 +887,7 @@
     width: 100% !important;
   }
   .product-item img {
-    height: 300px;
+    height: 300px !important;
   }
   .product-item .p-s h2 {
     font-size: 18px !important;
@@ -1013,13 +1035,25 @@
     box-shadow: none;
     padding: 0px;
   }
+  #subscribe .subscribe-box form .email {
+    font-size: 16px;
+    height: 66px;
+  }
+  #subscribe .subscribe-box form .btn {
+    font-size: 18px;
+    padding: 20px 47px;
+  }
 }
 
 
 
 
 @media screen and (max-width: 400px){
-  .title {
+  .btn {
+    padding: 15px 30px;
+  }
+  .title,
+  #singleBlog-content .singleBlog-wrapper h3 {
     font-size: 30px !important;
   }
   #about .about_content h2 {
@@ -1037,11 +1071,14 @@
       font-size: 25px !important;
       line-height: 30px;
   }
-  #testimonial .testimonial-content h2 {
-    line-height: 50px;
-  }
-  #offer .offer-title {
-    line-height: 50px;
+  #testimonial .testimonial-content h2,
+  #offer .offer-title,
+  #news .title-box-content h2,
+  #eco .eco-content h2,
+  #subscribe .subscribe-box h2,
+  #together .together-contact-wrapper h3,
+  .title {
+    line-height: 42px;
   }
   #not-found .not-found-content-wrapper .not-found-content-wrapp h1 {
     font-size: 120px;
@@ -1051,5 +1088,41 @@
   }
   #news .news-box-wrapper .news-box .news-content-box {
     height: 330px;
+  }
+  #news .news-box-wrapper .news-box .news-content-box span a,
+  #news .news-box-wrapper .news-box .news-content-box span i {
+    font-size: 15px;
+  }
+  #news .news-box-wrapper .news-box .news-content-box .title {
+    line-height: 20px;
+  }
+
+  #banner .banner-content h2 {
+    line-height: 52px;
+  }
+  #gallery .gallery-box button {
+    height: 60px;
+    width: 185px;
+  }
+  #news .news-box-wrapper .news-box .news-content-box button {
+    padding: 15px 25px;
+  }
+  #subscribe .subscribe-box form .email {
+    height: 62px;
+  }
+  #subscribe .subscribe-box form .btn {
+    padding: 16px 47px;
+  }
+  #footer .footer-content-box .social-box ul li {
+    margin-bottom: 15px;
+  }
+  #why-choose .wrapper-box .why-choose-content .btn::before {
+    top: 16px;
+  }
+  #together .together-contact-wrapper ul li a i {
+    margin-bottom: 15px;
+  }
+  #singleBlog-content .singleBlog-wrapper .ParaTwo {
+    font-size: 17px !important;
   }
 }
