@@ -74,14 +74,14 @@ var swiper = new Swiper(".offer-swiper", {
 });
 
 
-const videoPlayar = document.getElementById('videoPlayer');
+const videoPlayer = document.getElementById('videoPlayer');
 const myVideo = document.getElementById('myVideo');
 function stopVideo() {
-  videoPlayar.style.display = "none";
+  videoPlayer.style.display = "none";
 }
 function playVideo (file) {
-  myVideo.src = file.mp-4;
-  videoPlayar.style.display = 'block';
+  myVideo.src = file;
+  videoPlayer.style.display = 'block';
 }
 
 
